@@ -27,12 +27,6 @@ export default function Home() {
   return (
     <>
       <section>
-        <div className="stock-item" onClick={() => sendMessage('Capteurs de mouvements')}>
-          <span>Capteurs de mouvements</span>
-        </div>
-        <div className="stock-item" onClick={() =>sendMessage('Capteurs ultrason')}>
-          <span>Capteurs ultrason</span>
-        </div>
         <div className="stock-item" onClick={() =>sendMessage('Leds')}>
           <span>Leds</span>
         </div>
