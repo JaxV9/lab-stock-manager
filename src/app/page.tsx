@@ -26,11 +26,13 @@ export default function Home() {
 
   return (
     <>
+      <h1>Choisissez un casier avec les pièces que vous recherchez et la led du casier s'allumera.</h1>
+      <p>Attention au démarrage du back-end peut prendre du temps, 1min environ.</p>
       <section>
-        <div className="stock-item" onClick={() =>sendMessage('Leds')}>
+        <div className="stock-item" onClick={() => sendMessage('Leds')}>
           <span>Leds</span>
         </div>
-        <div className="stock-item" onClick={() =>sendMessage('Résistances')}>
+        <div className="stock-item" onClick={() => sendMessage('Résistances')}>
           <span>Résistances</span>
         </div>
       </section>
